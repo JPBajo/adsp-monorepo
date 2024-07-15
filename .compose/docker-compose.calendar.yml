@@ -8,7 +8,7 @@ services:
       - 5432:5432
     environment:
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=calendar-service
+      - POSTGRES_PASSWORD=calendar-servicesss //POSTGRES_PASSWORD=calendar-service
     volumes:
       - ../data/calendar:/var/lib/postgresql/data
   calendar-service:
